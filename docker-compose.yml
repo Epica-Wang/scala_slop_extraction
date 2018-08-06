@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  accern_template:
+    build: ./
+    container_name: "accern_template"
+    volumes:
+      - ./:/app
